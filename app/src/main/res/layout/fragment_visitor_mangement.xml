@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light1"
+    tools:context=".Fragment.VisitorMangementFragment">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fillViewport="true"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        android:paddingBottom="@dimen/larger_text_size">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp">
+
+        <Button
+            android:id="@+id/button_chooseFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:text="@string/button_ChooseFile"
+            android:background="@drawable/button_curve"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SpiinerIdenttityType" />
+
+        <Button
+            android:id="@+id/button_StartCamera"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:background="@drawable/button_curve"
+            android:text="@string/button_startCamera"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <Button
+            android:id="@+id/button_TakeSnapshot"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/smaller_text_size"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:background="@drawable/button_curve"
+            android:text="@string/button_takeSnapshot"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toEndOf="@+id/button_StartCamera"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+        <EditText
+            android:id="@+id/editVistorname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:ems="10"
+            android:hint="@string/text_visitorname1"
+            android:inputType="textLongMessage"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textVistorName" />
+
+        <EditText
+            android:id="@+id/editVistorMobile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:ems="10"
+            android:hint="@string/text_mobilenumber1"
+            android:inputType="number"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textMobileNumber" />
+
+        <EditText
+            android:id="@+id/editEmaildId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:ems="10"
+            android:hint="@string/text_emailid1"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textEmail" />
+
+        <EditText
+            android:id="@+id/editHomeAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:ems="10"
+            android:hint="@string/text_homeAddress1"
+            android:inputType="textLongMessage"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHomeaddress" />
+
+        <EditText
+            android:id="@+id/editOfficeAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:ems="10"
+            android:hint="@string/text_officeAddress1"
+            android:inputType="textLongMessage"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textOfficeAddress" />
+
+        <EditText
+            android:id="@+id/editVistingPurpose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:ems="10"
+            android:hint="@string/text_VistingPurpose1"
+            android:inputType="textLongMessage"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textVistingPurpose" />
+
+        <TextView
+            android:id="@+id/edittextVistordate"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:inputType="none"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textVistordate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/edittextVistrTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textVistrTime"/>
+
+        <TextView
+            android:id="@+id/editVistorDurationDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:padding="@dimen/font_medium"
+            android:inputType="none"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textVistorDurationDate"/>
+
+        <TextView
+            android:id="@+id/editVistorExitDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textVistorExitDate"/>
+
+        <TextView
+            android:id="@+id/editVistorExitTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textVistorExitTime"/>
+
+        <Spinner
+            android:id="@+id/SpiinerIdenttityType"
+            style="@style/spinner_style"
+            android:layout_marginTop="@dimen/medium_text_size"
+            android:padding="@dimen/font_medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textVistorName"
+            app:layout_constraintTop_toBottomOf="@+id/text_identityType" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:layout_marginTop="8dp"
+            app:layout_constraintDimensionRatio="h,0:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_chooseFile"
+            app:srcCompat="@drawable/ic_logo_web"
+             />
+
+        <TextView
+            android:id="@+id/textVistorTypeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:text="@string/text_visitortype"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="@dimen/small_text_size" />
+
+        <Spinner
+            android:id="@+id/spinner_visitorTypeUser"
+            style="@style/spinner_style"
+            android:layout_marginTop="@dimen/medium_text_size"
+            android:padding="@dimen/medium_text_size"
+            app:layout_constraintEnd_toStartOf="@+id/button_Select"
+            app:layout_constraintStart_toStartOf="@+id/textVistorName"
+            app:layout_constraintTop_toBottomOf="@+id/textVistorTypeTitle" />
+
+        <TextView
+            android:id="@+id/textVistorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_visitorname"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_visitorTypeUser" />
+
+        <TextView
+            android:id="@+id/textMobileNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_mobilenumber"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editVistorname" />
+
+
+        <TextView
+            android:id="@+id/textEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_emailid"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editVistorMobile" />
+
+        <TextView
+            android:id="@+id/textHomeaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_homeAddress"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editEmaildId" />
+
+        <TextView
+            android:id="@+id/textOfficeAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_officeAddress"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editHomeAddress" />
+
+        <TextView
+            android:id="@+id/textVistingPurpose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_VistingPurpose"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editOfficeAddress" />
+
+        <TextView
+            android:id="@+id/textVistordate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_Vistordate"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editVistingPurpose" />
+
+        <TextView
+            android:id="@+id/textVistrTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_Time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edittextVistordate" />
+
+        <TextView
+            android:id="@+id/textVistorDurationDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_VistorDurationdate"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edittextVistrTime" />
+
+        <TextView
+            android:id="@+id/textVistorExitDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_VistorExitdate"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editVistorDurationToDate1" />
+
+        <TextView
+            android:id="@+id/textVistorExitTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_VistorExitTime"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editVistorExitDate" />
+
+        <TextView
+            android:id="@+id/text_identityType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_identityType"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editVistorExitTime" />
+
+        <TextView
+            android:id="@+id/text_NoFileChosen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_NoChooseFile"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/button_chooseFile"
+            app:layout_constraintStart_toEndOf="@+id/button_chooseFile"
+            app:layout_constraintTop_toTopOf="@+id/button_chooseFile" />
+
+        <Button
+            android:id="@+id/button_SaveSnapShot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:background="@drawable/button_curve"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            android:text="@string/button_SaveSnapShot"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_StartCamera" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/light_clor"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_SaveSnapShot" />
+
+
+        <TextView
+            android:id="@+id/text_DeatilsOfOfficalToMeet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="@dimen/smaller_text_size"
+            android:text="@string/text_DetailsOfOfficialToMeet"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_medium"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+             />
+        <TextView
+            android:id="@+id/text_NameOfficialToMeet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/text_NameOfficialToMeet"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_DeatilsOfOfficalToMeet" />
+
+        <EditText
+            android:id="@+id/editNameOfficialToMeet1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:ems="10"
+            android:hint="@string/text_NameOfficialToMeet1"
+            android:inputType="textLongMessage"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_NameOfficialToMeet" />
+
+        <TextView
+            android:id="@+id/text_BranchDesk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_BranchDesk"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editNameOfficialToMeet1" />
+        <EditText
+            android:id="@+id/editBranchDesk1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:ems="10"
+            android:hint="@string/text_BranchDesk1"
+            android:inputType="textLongMessage"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_BranchDesk" />
+
+        <TextView
+            android:id="@+id/text_OfficialEmailId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_OfficialEmailId"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editBranchDesk1" />
+        <EditText
+            android:id="@+id/editOfficialEmailId1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:ems="10"
+            android:hint="@string/text_OfficialEmailId1"
+            android:inputType="textLongMessage"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_OfficialEmailId" />
+        <TextView
+            android:id="@+id/text_OfficialMobileNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_OfficialMobileNumber"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editOfficialEmailId1" />
+        <EditText
+            android:id="@+id/editOfficialMobileNumber1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:ems="10"
+            android:hint="@string/text_OfficialMobileNumber1"
+            android:inputType="number"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_OfficialMobileNumber" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_IsActive"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editOfficialMobileNumber1" />
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/submit"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="45dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+
+        <TextView
+            android:id="@+id/textVistorDurationToDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_VisitorDurationToDate"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editVistorDurationDate" />
+        <TextView
+            android:id="@+id/editVistorDurationToDate1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smaller_text_size"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/general_edt_box"
+            android:padding="@dimen/font_medium"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="@dimen/small_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textVistorDurationToDate"/>
+
+        <Button
+            android:id="@+id/button_Select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_Select"
+            android:textSize="@dimen/medium_text_size"
+            android:textColor="@color/white"
+            android:background="@color/yellow1"
+            app:layout_constraintDimensionRatio="w,1:0"
+            app:layout_constraintBottom_toBottomOf="@+id/spinner_visitorTypeUser"
+            app:layout_constraintEnd_toEndOf="@+id/editVistorname"
+            app:layout_constraintTop_toTopOf="@+id/spinner_visitorTypeUser" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d82533</color>
+    <color name="colorPrimaryDark">#4A148C</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="secondry">#ab3464</color>
+    <color name="trinary">#804191</color>
+    <color name="graylight">#E9E9E9</color>
+    <color name="textColor">#fdcb4e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background1">#E65100</color>
+    <color name="redyellow">#FF3D00</color>
+
+    <color name="light_gray_silver">#DCDCDC</color>
+
+    <color name="gray_light1">#f0eff5</color>
+
+    <color name="grayLight">#FFFBFBFC</color>
+
+    <color name="light_hs_gray">#F7F7F7</color>
+    <color name="background">#d2ad1e</color>
+    <color name="yellow1">#FFDE03</color>
+    <color name="black">#404040</color>
+    <color name="balck1">#000</color>
+    <color name="light_gray2">#f2f2f2</color>
+    <color name="gray">#323232</color>
+    <color name="blue">#0000FF</color>
+
+    <color name="red">#ed0a0a</color>
+    <color name="yellow">#FFC400</color>
+    <color name="light_blue">#02e4fd</color>
+    <color name="not_avilbale">#0091EA</color>
+    <color name="light_gray1">#b9b4b4</color>
+    <color name="dark_gray">#797474</color>
+    <color name="light_green">#418c55</color>
+    <color name="light_clor">#76FF03</color>
+    <color name="light_deep">#64DD17</color>
+
+    <color name="normal">#00ACEB</color>
+    <color name="very_high">#FF0000</color>
+    <color name="high">#FFA600</color>
+    <color name="unreliable">#00FFFF</color>
+    <color name="not_responding">#D3D3D3</color>
+    <color name="not_available">#808080</color>
+    <color name="manual_data">#FF00FF</color>
+    <color name="low">#FF99FF</color>
+    <color name="increase">#FFF200</color>
+
+    <color name="water">#c63589f6</color>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item
+            android:id="@+id/Nav_VisitorDashboard"
+            android:icon="@drawable/ic_baseline_person_pin_24"
+            android:title="Visitor Dashboard" />
+        <item
+            android:id="@+id/nav_Visitor"
+            android:icon="@drawable/ic_baseline_perm_identity_24"
+            android:title="Visitor" />
+
+        <item
+            android:id="@+id/nav_VisitorList"
+            android:icon="@drawable/ic_baseline_people_24"
+            android:title="Visitor List"
+            />
+        <item
+            android:id="@+id/nav_InternalStaff"
+            android:icon="@drawable/ic_baseline_person_outline_24"
+            android:title="Internal Staff" />
+
+        <item
+            android:id="@+id/nav_InternalStaffList"
+            android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+            android:title="Internal Staff List" />
+    </group>
+    <item android:title="Admin Information">
+        <menu>
+
+            <item
+                android:id="@+id/nav_AttendenceReport"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Attendence Report" />
+            <item
+                android:id="@+id/nav_MonthlyAttendenceReport"
+                android:icon="@drawable/ic_baseline_date_range_24"
+                android:title="Monthly Attendence Report"
+                />
+            <item
+                android:id="@+id/nav_LogOut"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="LogOut" />
+            <item
+                android:id="@+id/nav_TodaysTimeOut"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:visible="false"
+                android:title="Todays Time Out" />
+            <item
+                android:id="@+id/nav_AdminProfile"
+                android:icon="@drawable/ic_baseline_account_circle_24"
+                android:title=" Admin Profile" />
+            <item
+                android:id="@+id/nav_ProfilePasswordChange"
+                android:icon="@drawable/ic_baseline_lock_24"
+                android:title="Profile Password Change" />
+
+        </menu>
+    </item>
+
+
+</menu>

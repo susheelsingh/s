@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- /____________________ Text Size ___________________________ -->
+    <dimen name="larger_text_size">22dp</dimen>
+    <dimen name="large_text_size">18sp</dimen>
+    <dimen name="medium_text_size">16sp</dimen>
+    <dimen name="navigation_title_size">14sp</dimen>
+    <dimen name="small_text_size">14sp</dimen>
+    <dimen name="super_small_text_size">11dp</dimen>
+    <dimen name="smaller_text_size">9dp</dimen>
+
+    <dimen name="gride_title_text_size">13dp</dimen>
+    <dimen name="gride_sub_title_text_size">11dp</dimen>
+
+    <!-- ___________________________________________________________ -->
+
+    <!-- __________________________ Navigation dimensions ____________________________ -->
+    <dimen name="navigation_list_item_padding_top_and_bottom">8dp</dimen>
+    <dimen name="navigation_list_item_padding_right_and_left">16dp</dimen>
+    <dimen name="navigation_icon_size">35dp</dimen>
+    <dimen name="navigation_title_margin_left">56dp</dimen>
+    <dimen name="navigation_both_added_margin">12dp</dimen>
+
+    <dimen name="bookmark_margin_on_product_list">4dp</dimen>
+    <dimen name="search_view_padding_left">24dp</dimen>
+    <dimen name="search_text_padding_left">40dp</dimen>
+
+    <!-- _____________________________________________________________________________ -->
+
+    <!-- ___________________________ Dimensions for Horisonatal Recycler on Categories ____________ -->
+    <dimen name="categories_recycler_list_item_image_size">55dp</dimen>
+    <dimen name="categories_recycler_list_item_side_margin">24dp</dimen>
+    <!-- _________________________________________________________________________________________ -->
+
+    <!-- __________________________ Dimensions between list items ________________________ -->
+    <dimen name="list_item_margin_between_views">4dp</dimen>
+
+    <!-- _________________________________________________________________________________ -->
+
+    <!-- __________________________________ Product Horizontal Recycler Dimensions _______________ -->
+    <dimen name="horizontal_product_width">146dp</dimen>
+    <dimen name="horizontal_product_rating_height">12dp</dimen>
+    <dimen name="horizontal_product_rating_width">12dp</dimen>
+    <dimen name="horizontal_product_rating_padding">1dp</dimen>
+    <dimen name="horizontal_bookmark_product_icon_size">28dp</dimen>
+
+    <!-- _______________________________________________________________________________________ -->
+
+    <!-- _______________________________________ Product Details Dimensions ____________________ -->
+    <dimen name="product_activity_star_height">18dp</dimen>
+    <dimen name="product_activity_star_width">18dp</dimen>
+    <dimen name="product_activity_star_padding">2dp</dimen>
+    <dimen name="product_activity_user_image_view_size">50dp</dimen>
+
+    <!-- _______________________________________________________________________________________ -->
+
+    <!-- _______________________________________ WriteReviewActivity ___________________________ -->
+    <dimen name="write_review_rating_bar_height">31dp</dimen>
+    <dimen name="write_review_rating_bar_width">31dp</dimen>
+    <dimen name="write_review_rating_bar_padding">3dp</dimen>
+
+    <!-- _______________________________________________________________________________________ -->
+
+
+    <dimen name="tab_layout_text_size">10dp</dimen>
+    <dimen name="action_bar_text_size">11dp</dimen>
+    <dimen name="divider_height">0.5dp</dimen>
+    <dimen name="divider_one_dp">1dp</dimen>
+    <dimen name="dash_gap_and_width_five">5dp</dimen>
+    <dimen name="action_bar_logo_size">31dp</dimen>
+    <dimen name="action_bar_center_image_width">80dp</dimen>
+
+    <dimen name="button_height">43dp</dimen>
+    <dimen name="small_button_height">33dp</dimen>
+    <dimen name="button_side_margin">32dp</dimen>
+    <dimen name="edit_text_padding">5dp</dimen>
+    <dimen name="profile_activity_divider_height">2dp</dimen>
+    <dimen name="profile_fragment_list_item_two_image_height">35dp</dimen>
+    <dimen name="profile_fragment_list_item_two_view_height">83dp</dimen>
+
+    <dimen name="gride_view_star_height">17dp</dimen>
+    <dimen name="gride_view_star_width">17dp</dimen>
+    <dimen name="gride_view_star_padding">2dp</dimen>
+    <dimen name="gride_layout_main_image_height">140dp</dimen>
+    <dimen name="gride_layout_main_image_width">127dp</dimen>
+    <dimen name="gride_layout_small_image_height">27dp</dimen>
+    <dimen name="gride_view_item_height">256dp</dimen>
+    <dimen name="gride_view_item_width">180dp</dimen>
+    <dimen name="background_corner_radius">8dp</dimen>
+    <dimen name="background_small_corner_radius">3dp</dimen>
+    <dimen name="bank_details_list_item_image_height">50dp</dimen>
+    <dimen name="bank_details_list_item_image_width">85dp</dimen>
+
+    <dimen name="add_new_card_details_gateway_image_width">52dp</dimen>
+    <dimen name="add_new_card_details_gateway_image_height">32dp</dimen>
+    <dimen name="home_fragment_background_height">56dp</dimen>
+    <dimen name="home_fragment_top_recycler_list_item_image_height">65dp</dimen>
+    <dimen name="customer_review_list_item_image_size">65dp</dimen>
+    <dimen name="settings_activity_toggle_button_height">32dp</dimen>
+    <dimen name="add_address_country_text_bottom_pading">12dp</dimen>
+    <dimen name="add_address_edit_image_icon_margin">0dp</dimen>
+    <dimen name="profile_info_activity_profile_pic_size">90dp</dimen>
+    <dimen name="product_list_filter_fragment_selector_width">3dp</dimen>
+    <dimen name="product_list_filter_fragment_tab_indicator_height">2dp</dimen>
+
+    <dimen name="view_pager_dot_size">8dp</dimen>
+    <dimen name="view_pager_home_fragment_image_height">154dp</dimen>
+    <dimen name="custom_toast_size">300dp</dimen>
+    <dimen name="tab_indicator_height">2dp</dimen>
+    <dimen name="booking_icon_size">60dp</dimen>
+    <dimen name="booking_icon_padding">17dp</dimen>
+    <dimen name="booking_reschedule_list_item_text_size">100dp</dimen>
+    <dimen name="checkout_activity_icon_size">40dp</dimen>
+
+    <dimen name="booking_confirm_activity_top_image_size">58dp</dimen>
+    <dimen name="chat_thread_image_size">35dp</dimen>
+    <dimen name="chat_thread_send_image_size">150dp</dimen>
+    <dimen name="profile_fragment_top_list_item_height">85dp</dimen>
+    <dimen name="max_with">240dp</dimen>
+    <dimen name="imgageWidth">98</dimen>
+    <dimen name="imageHeight">96</dimen>
+
+</resources>

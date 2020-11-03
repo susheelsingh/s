@@ -1,0 +1,266 @@
+<resources>
+    <string name="app_name">QRMS</string>
+
+
+    //:::::::::::::::::::::::: Login ::::::::::::::::::::
+    <string name="text_login">Login</string>
+    <string name="text_FrogetPass">Forget Password ?</string>
+    <string name="textSignup">Don\'t have account ? Sign Up</string>
+    <string name="text_signup">SiginUp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    //:::::::::::: Forget Screen ::::::::::::::::
+
+
+    <string name="textEmail">Email</string>
+    <string name="submit">Submit</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="login">Login</string>
+    <string name="textCancel">Cancel</string>
+    <string name="textForget">Forget Password</string>
+
+    //::::::::::: Sign Up Screen::::::::::::::::
+
+    <string name="editTextName"> User Name</string>
+    <string name="editPassword">Password</string>
+    <string name="editTextConfirmPass">Password</string>
+    <string name="buttonSignup">SignUp</string>
+    <string name="text_profile">Profile</string>
+    <string name="textUserName">User Name</string>
+    <string name="edtUsername">User Name</string>
+    <string name="textUserEmail">User Email</string>
+    <string name="edtUserEmail">User Email</string>
+    <string name="textUserPhone">Mobile Number</string>
+    <string name="edtUserMobileNumber">Mobile Number</string>
+    <string name="text_contactUs">ContactUs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_visito_management">Vistor Management</string>
+    <string name="text_visitorname">Visitor Name<font fgcolor="red"> *</font></string>
+    <string name="text_visitortype">VisitorType<font fgcolor="red"> *</font></string>
+    <string name="edt_visitortype">--VisitorType--</string>
+    <string name="button_select">Select</string>
+    <string name="text_visitorname1">Visitor Name</string>
+    <string name="text_mobilenumber">Mobile Number<font fgcolor="red"> *</font></string>
+    <string name="text_mobilenumber1">Mobile Number</string>
+    <string name="text_emailid">Email id<font fgcolor="red"> *</font></string>
+    <string name="text_emailid1">Email id</string>
+    <string name="text_homeAddress">Home Address<font fgcolor="red"> *</font></string>
+    <string name="text_homeAddress1">Home Address</string>
+    <string name="text_officeAddress">Office Address<font fgcolor="red"> *</font></string>
+    <string name="text_officeAddress1"> Vistor Office Address</string>
+    <string name="text_VistingPurpose">Visting Purpose<font fgcolor="red"> *</font></string>
+    <string name="text_VistingPurpose1">Vistor Purpose</string>
+    <string name="text_visitorname2">Visitor Name<font fgcolor="red"> *</font></string>
+
+    <string name="text_DetailsOfOfficialToMeet">Details Of Official To Meet</string>
+    <string name="text_NameOfficialToMeet">Meeting With<font fgcolor="red"> *</font></string>
+    <string name="text_NameOfficialToMeet1">Meeting With</string>
+
+    <string name="text_BranchDesk">Branch/Desk<font fgcolor="red"> *</font></string>
+    <string name="text_BranchDesk1">Branch/Desk</string>
+
+    <string name="text_Vistordate">Visitor Date<font fgcolor="red"> *</font></string>
+    <string name="text_Vistordate1">Visitor Date</string>
+
+    <string name="text_Time">Visitor Time<font fgcolor="red"> *</font></string>
+    <string name="text_Time1">Visitor Time</string>
+
+    <string name="text_VistorDurationdate">Visitor Duration From Date</string>
+    <string name="text_VisitorDurationToDate">Visitor Duration To Date</string>
+    <string name="text_VistorDurationdate1">Visitor Duration From Date</string>
+
+    <string name="text_VistorExitdate">Visitor Exit Date</string>
+    <string name="text_VistorExitdate1">Visitor Exit Date</string>
+
+    <string name="text_VistorExitTime">Visitor Exit Time</string>
+    <string name="text_VistorExitTime1">Visitor Exit Time</string>
+
+    <string name="text_identityType">Identity Type<font fgcolor="red"> *</font></string>
+    <string name="text_identityType1">Identification Type</string>
+    <string name="button_ChooseFile">Choose File</string>
+    <string name="text_NoChooseFile">No file chosen</string>
+    <string name="button_startCamera">Start Camera</string>
+    <string name="button_takeSnapshot">Take Snapshot</string>
+    <string name="button_SaveSnapShot">Save Snapshot</string>
+
+    <string name="text_OfficialEmailId">Official Email Id<font fgcolor="red"> *</font></string>
+    <string name="text_OfficialEmailId1">Official Email Id</string>
+    <string name="text_OfficialMobileNumber">Official Mobile Number<font fgcolor="red"> *</font></string>
+    <string name="text_OfficialMobileNumber1">Official Mobile Number</string>
+    <string name="text_IsActive">Is Active</string>
+
+
+    // :::::::::::::::::::::::: Ticket Creation ::::::::::::::::::::::::::
+
+    <string name="text_TicketCreationTitle">Ticket Creation</string>
+    <string name="text_Company">Company<font fgcolor="red"> *</font></string>
+    <string name="edt_SelectCompany">--Select Company--</string>
+    <string name="text_TicketName">Ticket Name<font fgcolor="red"> *</font></string>
+    <string name="edt_TicketNameSholud">Ticket name should be categorized n</string>
+    <string name="text_TicketType">Ticket Type<font fgcolor="red"> *</font></string>
+    <string name="edt_SelectTicketType">--Select TicketType--</string>
+    <string name="text_SelectType">Select Type<font fgcolor="red"> *</font></string>
+    <string name="text_User">User</string>
+    <string name="edt_UserSelect">Select User</string>
+    <string name="text_GroupTeam">Group Team</string>
+    <string name="edt_GroupTeam">--Select GroupTeam--</string>
+    <string name="text_Prioriry">Prioriry<font fgcolor="red"> *</font></string>
+    <string name="edt_Prioriry">--Select Prioriry--</string>
+    <string name="text_ReferenceURL">Reference URL</string>
+    <string name="edt_RefUrl">Ref URL</string>
+    <string name="text_ShortDiscription">Short Discription</string>
+    <string name="edt_ShortDiscription">Short Discription</string>
+    <string name="text_CompletionDate">Completion Date</string>
+    <string name="edt_CompletionDate">Completion Date</string>
+    <string name="text_UploadFile">Upload File</string>
+    <string name="text_PdfAndExcel">(PDF/JPEG/PNG/EXCEL)</string>
+    <string name="edt_UploadFile">Upload Files</string>
+    <string name="text_DetailDiscription">Detail Discription<font fgcolor="red"> *</font></string>
+    <string name="edt_DetailDiscription">Detail Discription</string>
+
+    // :::::::::::::::::::::::: Expensive Category ::::::::::::::::::::::::::
+    <string name="text_ExpensiveCategoryTitle">Expensive Category</string>
+    <string name="text_SubExpensiveCategoryTitle">Category</string>
+    <string name="edt_SelectCategory">-Select Category-</string>
+    <string name="text_CurrencyType">Currency Type</string>
+    <string name="edt_CurrencyType">-Select currency Type-</string>
+    <string name="text_ExpenseType">Expense Type</string>
+    <string name="edt_ExpenseType">Expense Type</string>
+    <string name="check_Isactive">Is Active</string>
+    <string name="text_ExpenseDetailsTitle">Expense Details</string>
+    <string name="text_tableCategoryTitle">Category</string>
+    <string name="text_tableExpensiveType">Expense Type</string>
+    <string name="text_tableCurrencyType">Currency Type</string>
+    <string name="check_tableIsactive">Is Active</string>
+
+    // :::::::::::::::::::::::: Expenses Transaction ::::::::::::::::::::::::::
+
+    <string name="text_ExpensesTransactionTitle">Expenses Transaction</string>
+    <string name="checkbox_ClaimReimbursement">Claim Reimbursement</string>
+    <string name="checkbox_Billable">Billable</string>
+    <string name="text_ExpensesTransactionCategory">Category<font fgcolor="red"> *</font></string>
+    <string name="edt_ExpensesTransaction">-Select Category-</string>
+    <string name="text_ExpensesTransactionExpensesType">Expenses Type<font fgcolor="red"> *</font></string>
+    <string name="edt_SelectExpensesType">--Select Expense Type--</string>
+    <string name="text_Amount">Amount<font fgcolor="red"> *</font></string>
+    <string name="edt_Amount">Amount</string>
+
+    <string name="text_PaymentMode">Amount<font fgcolor="red"> *</font></string>
+    <string name="edt_PaymentMode">Amount</string>
+
+
+    // :::::::::::::::::::::::: Meeting Request ::::::::::::::::::::::::::
+    <string name="text_MeetingRequestTitle">Meeting Request</string>
+    <string name="text_EMeetingType">Meeting Type<font fgcolor="red"> *</font></string>
+    <string name="edt_SelectEMeetingType">--Select Meeting Type--</string>
+    <string name="text_MeetingAgenda">Meeting Agenda<font fgcolor="red"> *</font></string>
+    <string name="edt_MeetingAgenda">Meeting Agenda</string>
+    <string name="edt_MeetingDate">Meeting Date</string>
+    <string name="text_MMeetingDate">Meeting Date<font fgcolor="red"> *</font></string>
+    <string name="edt_MeetingTime">Meeting Time</string>
+    <string name="text_MeetingTime">Meeting Time<font fgcolor="red"> *</font></string>
+
+    // :::::::::::::::::::::::: Visitor Listing ::::::::::::::::::::::::::
+    <string name="text_VisitorsDetailsTitle">Visitors Details</string>
+    <string name="text_VisitorsExportToExcel">Export to Excel</string>
+    <string name="text_VisitorsId">Visitor ID</string>
+    <string name="text_VisitorName">Visitor Name</string>
+    <string name="text_VisitorsMobile">Mobile</string>
+    <string name="text_VisitorsEmailId">Email Id</string>
+    <string name="text_VisitorsHomeAddress">Home Address</string>
+    <string name="text_VisitorsOfficeAddress">Office Address</string>
+    <string name="text_VisitorsVisitorPurpose">Visitor Purpose</string>
+    <string name="text_VisitorsVisitingDate">Visiting Date</string>
+    <string name="text_VisitorsStatus">Status</string>
+    <string name="text_VisitorsIdentityType">Identity Type</string>
+    <string name="text_VisitorsEdit">Edit</string>
+
+    //::::::::::::: Internal Staff Listing :::::::::::::::::
+    <string name="text_VIntStaffPersonalDtlId">VIntStaffPersonalDtlId</string>
+    <string name="text_InternalStaff">Internal Staff</string>
+    <string name="text_IntFirstName">First Name</string>
+    <string name="text_IntLastName">Last Name</string>
+    <string name="text_IntParentOtherName">Parent Other Name</string>
+    <string name="text_IntMobile">Mobile No</string>
+    <string name="text_IntEmailId">Email Id</string>
+    <string name="text_IntHomeAddress">Home Address</string>
+    <string name="text_IntCity">City</string>
+    <string name="text_IntState">State</string>
+    <string name="text_Pincode">PinCode</string>
+    <string name="text_IntAadharCard">AadharCard</string>
+    <string name="text_IntPincode">Pincode</string>
+    <string name="text_IntPAN">PAN</string>
+    <string name="text_IntBankAccount">Bank Account</string>
+    <string name="text_IntIFSC">IFSC</string>
+    <string name="text_IntBranch">Branch</string>
+    <string name="text_IntBankAddress">Bank Address</string>
+    <string name="text_IntStatus">Status</string>
+    <string name="text_IntEdit">Edit</string>
+
+    // :::::::::::::::::::::: Add Internal Staff :::::::::::::::::::::
+    <string name="text_AddInternalStaff">Add Internal Staff</string>
+    <string name="text_BasicDetails">Basic Details</string>
+    <string name="text_Organizedandsecure">Organized and secure.</string>
+    <string name="text_ItemName">Item Name</string>
+    <string name="text_InternalStaff1">--Internal Staff--</string>
+    <string name="text_MiddleName">Middle Name</string>
+    <string name="text_CountryName">Country Name</string>
+    <string name="joiningdate">Joining Date</string>
+    <string name="text_branchAddress">Branch Address</string>
+    <string name="BankPassoBookPath">BankPassoBookPath</string>
+    <string name="upload">Upload</string>
+    <string name="browse">Browse</string>
+
+    //::::::::::::::::::::: Visitor dashBoard ::::::::::::::::::::::::
+    <string name="visitorStart">Start Date</string>
+    <string name="visitorEndDate">End Date</string>
+    <string name="visitorSearch">Search</string>
+    <string name="text_Visitor">Visitor</string>
+    <string name="text_TypeVisitor">Type Of Visitor</string>
+    <string name="text_DefVisitor">Default Visitor</string>
+    <string name="text_DeliveryVisitor">Delivery</string>
+    <string name="text_InternalVisitor">Internal Staff</string>
+    <string name="text_Deliveryvisitor">Delivery Visitor:</string>
+    <string name="text_DeliveryvisitorCount">2</string>
+    <string name="text_Defvisitor">Default Visitor:</string>
+    <string name="text_Internalstaffvisitor">Internal Staff:</string>
+    <string name="text_OtherVistorvisitor">Other Visitor:</string>
+
+    //:::::::::::::::::::::::::::: Default Internal Staff:::::::::::::::::::
+
+    <string name="text_staffName">Staff Name<font fgcolor="red"> *</font></string>
+    <string name="text_PlaceVisit">Place Visit<font fgcolor="red"> *</font></string>
+    <string name="text_PlaceVisit1">Place Visit</string>
+    <string name="text_VisitorPurpose">Visitor Purpose<font fgcolor="red"> *</font></string>
+    <string name="text_VisitorPurpose1">Visitor Purpose</string>
+    <string name="text_Company1">Company<font fgcolor="red"> *</font></string>
+    <string name="text_Company2">Company</string>
+    <string name="text_VisitingPurpose">Visiting Purpose<font fgcolor="red"> *</font></string>
+    <string name="edt_VisitingPurpose">Visiting Purpose</string>
+    <string name="text_SearchVisit">Search Visit To</string>
+
+    //:::::::::::::::::::::::::::: Default Internal Staff:::::::::::::::::::
+    <string name="text_SocietyName">Society Name<font fgcolor="red"> *</font></string>
+    <string name="edt_SocietyName1">Society Name</string>
+    <string name="text_FlatNo.">Flat No.<font fgcolor="red"> *</font></string>
+    <string name="text_FlatNo1">Flat No.</string>
+    <string name="text_OwnerName">Owner Name<font fgcolor="red"> *</font></string>
+    <string name="text_OwnerName1">Owner Name</string>
+    <string name="text_MobileNo">Mobile No<font fgcolor="red"> *</font></string>
+    <string name="text_MobileNo1">Mobile No</string>
+    <string name="text_StaffType">Staff Type<font fgcolor="red"> *</font></string>
+    <string name="text_StaffType1">Staff Type</string>
+    <string name="text_ServantName">Servant Name<font fgcolor="red"> *</font></string>
+    <string name="text_ServantName1">Servant Name</string>
+    <string name="text_ServantMobileNo">Servant Mobile No<font fgcolor="red"> *</font></string>
+    <string name="text_ServantMobileNo1">Servant Mobile No</string>
+    <string name="text_ServantAdharNo">Servant Adhar No<font fgcolor="red"> *</font></string>
+    <string name="text_ServantAdharNo1">Servant Adhar No</string>
+    <string name="text_ServantAddress">Servant Address<font fgcolor="red"> *</font></string>
+    <string name="text_ServantAddress1">Servant Address</string>
+    <string name="text_Select">SELECT</string>
+
+</resources>
